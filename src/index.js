@@ -44,19 +44,11 @@ function NavBar() {
 }
 
 function Home() {
-  return (
-    <div>
-      <h1>Home!</h1>
-    </div>
-  );
+  return <h1>Home!</h1>
 }
 
 function About() {
-  return (
-    <div>
-      <h1>This is my about component!</h1>
-    </div>
-  );
+  return <h1>This is my about componenet!</h1>
 }
 
 function Login() {
@@ -73,13 +65,6 @@ function Login() {
   );
 }
 
-function NavBar() {
-  return (
-    <div>
-      <h1>Navigation</h1>
-    </div>
-  );
-}
 
 // Change so that router cordinates what is displaying
 ReactDOM.render(
